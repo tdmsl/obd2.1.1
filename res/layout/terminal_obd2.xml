@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+    <!--android:nestedScrollingEnabled="false"-->
+
+
+
+    <TextView
+                android:id="@+id/infoTerminal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <!-- android:nestedScrollingEnabled="false"-->
+
+    <View android:id="@+id/SplitLine_hor3" android:layout_width="match_parent" android:layout_height= "10dp"
+          android:visibility="invisible" android:background="#067dff" android:clickable="false"
+          android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:textAlignment="center"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tv_respuesta" android:background="@android:drawable/edit_text"
+            android:focusable="false" android:focusableInTouchMode="false"
+            android:layout_margin="20dp" android:gravity="center" android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="top" style="@android:style/Widget.Holo.EditText"
+    />
+    <!--android:nestedScrollingEnabled="false"-->
+
+    <View android:id="@+id/SplitLine_hor1" android:layout_width="match_parent" android:layout_height= "10dp"
+          android:visibility="visible" android:background="@android:color/darker_gray" android:clickable="true"
+          android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+          android:layout_weight="0"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+        <EditText
+                android:layout_width="138dp"
+                android:layout_height="40dp"
+                android:id="@+id/etCMD" android:background="#fafff9" android:inputType="text" android:editable="true"
+                android:textColor="#2945ff" android:focusable="true" android:layout_marginLeft="30dp"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:id="@+id/btnEnviarCMD" android:layout_weight="0.26"
+                android:onClick="enviarCMD" android:layout_marginLeft="10dp"
+                android:background="@android:drawable/btn_default" android:layout_marginRight="30dp"/>
+        <!--android:nestedScrollingEnabled="false"-->
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_gravity="center_horizontal">
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/comboCMD" android:spinnerMode="dialog"
+                android:theme="@android:style/Widget.DeviceDefault.Spinner" android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+    </LinearLayout>
+    <View android:id="@+id/SplitLine_hor2" android:layout_width="match_parent" android:layout_height= "5dp"
+          android:visibility="visible" android:background="@android:color/darker_gray" android:clickable="true"
+          android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/comboListPids" android:spinnerMode="dialog" android:prompt="@string/listPids"
+                android:theme="@android:style/Widget.TextView.SpinnerItem" android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

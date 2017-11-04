@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ListadosDTC">
+
+        <item>Hyonsung 250</item>
+        <item>Hyonsung 650</item>
+        <item>LML</item>
+        <item>TGB</item>
+        <item>Daelim</item>
+        <item>Hyonsung DELPHI</item>
+        <item>ST7</item>
+        <item>OBD_generico</item>
+        <item>Listados DTCs</item>
+
+    </string-array>
+
+    <string-array name="comandos">
+        <item>Listado comandos</item>
+        <item>ATI,ELM version information</item>
+        <item>ATZ,inicializacion</item>
+        <item>ATD,Set all to default</item>
+        <item>ATPC,Terminates current diagnostic session</item>
+        <item>ATH0,Set headers parameter (turned off)</item>
+        <item>ATH1,Set headers parameter (turned on)</item>
+        <item>ATSP0,ESTABLECE PROTOCOLO AUTO</item>
+        <item>ATSP1,Set protocol SAE J1850 PWM (41.6 kbaud)</item>
+        <item>ATSP2,Set protocol SAE J1850 VPW (10.4 kbaud)</item>
+        <item>ATSP3,Set protocol ISO 9141-2 (5 baud init, 10.4 kbaud)TOYOTA</item>
+        <item>ATSP4,Set protocol ISO 14230-4 KWP (5 baud init, 10.4 kbaud)</item>
+        <item>ATSP5,Set protocol ISO 14230-4 KWP (fast init, 10.4 kbaud)</item>
+        <item>ATSP6,Set protocol ISO 15765-4 CAN (11 bit ID, 500 kbaud)</item>
+        <item>ATSP7,Set protocol ISO 15765-4 CAN (29 bit ID, 500 kbaud)</item>
+        <item>ATSP8,Set protocol ISO 15765-4 CAN (11 bit ID, 250 kbaud)</item>
+        <item>ATSP9,Set protocol ISO 15765-4 CAN (29 bit ID, 250 kbaud)</item>
+        <item>ATSHE410F1</item>
+        <item>AT @1,MUESTRA DESCRPCION DEL ELM327</item>
+        <item>ATDP,MUESTRA EL PROTOCOLO ACTUAL</item>
+        <item>ATDPN,MUESTRA EL nº DE PROTOCOLO</item>
+        <item>ATRV,MUESTRA EL VOLTAJE</item>
+        <item>ATAR,Automatically Receive</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="comandos2">
+        <item>,Selecciona CMD,</item>
+        <item>ATI,ELM version information</item>
+        <item>AT @1,MUESTRA DESCRPCION DEL ELM327</item>
+        <item>ATZ,inicializacion</item>
+        <item>ATSP0,ESTABLECE PROTOCOLO AUTO</item>
+        <item>ATDP,MUESTRA EL PROTOCOLO ACTUAL</item>
+        <item>ATDPN,MUESTRA EL nº DE PROTOCOLO</item>
+        <item>ATRV,MUESTRA EL VOLTAJE</item>
+        <item>0100,PIDs soportados</item>
+
+    </string-array>
+
+    <string-array name="pids">
+        <item>inicio,inicio</item>
+        <item>01,Estado DTC</item>
+        <item>03,Sistema combustible</item>
+        <item>04,Carga motor</item>
+        <item>05,Temp refrigerante</item>
+        <item>06,Ajuste combustible short</item>
+        <item>07,Ajuste de combustiblr long</item>
+        <item>0C,RPM</item>
+        <item>0D,KmH</item>
+        <item>0F,Temperatura aire admision</item>
+        <item>10,Caudal de aire</item>
+        <item>13,Sensores de oxigeno</item>
+        <item>14,Sensor oxigeno 1</item>
+        <item>1C,Normas OBD</item>
+        <item>1F,Tiempo desde arranque</item>
+        <item>20,Pids soportados</item>
+        <item>01,pendiente </item>
+        <item>05,pendiente </item>
+        <item>0C,pendiente </item>
+        <item>0D,pendiente </item>
+        <item>1C,pendiente </item>
+        <item>01,pendiente </item>
+        <item>00,pendiente </item>
+        <item>1C,pendiente </item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+        <item>1,1</item>
+
+
+
+    </string-array>
+</resources>

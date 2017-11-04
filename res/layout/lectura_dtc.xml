@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listadoDTCTextView" android:layout_gravity="center_horizontal" android:text="Lectura DTCs"
+            android:gravity="center_horizontal" android:textSize="40dp" android:textIsSelectable="false"
+            android:singleLine="true"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoLectura"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:id="@+id/tv_dtcs" android:layout_gravity="bottom|center_horizontal" android:layout_margin="20dp"
+            android:maxHeight="25dp" style="@android:style/TextAppearance.Holo.Widget.EditText"
+            android:background="@android:color/background_light"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_gravity="bottom|center"
+            android:nestedScrollingEnabled="true">
+    </FrameLayout>
+</LinearLayout>

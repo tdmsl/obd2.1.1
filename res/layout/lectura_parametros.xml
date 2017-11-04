@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoLectura"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lectura Parametros"
+            android:id="@+id/textViewLecturaParametros" android:textSize="30dp" android:textIsSelectable="true"
+            android:textAlignment="center" android:gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RPM"
+            android:id="@+id/button_rpm" android:enabled="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temp Refrigerante"
+            android:id="@+id/button_tmpRefri"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KMH"
+            android:id="@+id/button_kmh"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aire Add"
+            android:id="@+id/button_vadd"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sonda Lamda"
+            android:id="@+id/button_co2"/>
+</LinearLayout>
